@@ -1,0 +1,16 @@
+@media (max-width: 767px) {
+  /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+  .body-content {
+    padding-top: 50px;
+  }
+}
+.banner {
+  height: 30vh;
+  background-image: url(../app/shared/img/4.jpg);
+  margin-bottom: 18px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.footer{
+  margin-left:350px;
+}

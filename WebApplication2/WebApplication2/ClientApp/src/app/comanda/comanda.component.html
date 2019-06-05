@@ -1,0 +1,15 @@
+<form>
+  <mat-form-field>
+    <textarea matInput placeholder="Nume" [(ngModel)]="product.name" name="name"></textarea>
+  </mat-form-field>
+  <br />
+  <mat-form-field>
+    <textarea matInput placeholder="Pret" [(ngModel)]="product.price" name="price"></textarea>
+  </mat-form-field>
+  <br />
+  <mat-form-field>
+    <textarea matInput placeholder="Descriere" [(ngModel)]="product.description" name="description"></textarea>
+  </mat-form-field>
+  <br />
+  <button (click)="submit()">Submit</button>
+</form>

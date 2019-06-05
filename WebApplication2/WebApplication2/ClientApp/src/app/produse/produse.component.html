@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="col-md-3" *ngFor="let product of products">
+    <div class="card">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/61rFlS0ausL._UX342_.jpg  " alt="Denim Jeans" style="width:100%">
+      <h1>{{product.name}}</h1>
+      <p class="price">{{product.price}} lei</p>
+      <p>{{product.description}}</p>
+      <p><button routerLink="/produs/{{product.id}}">>View</button></p>
+    </div>
+  </div>
+</div>
